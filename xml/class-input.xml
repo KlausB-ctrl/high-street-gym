@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE classes
+[
+<!ELEMENT classes (class+)>
+<!ELEMENT class (name, date, start_time, finish_time, trainer_email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT start_time (#PCDATA)>
+<!ELEMENT finish_time (#PCDATA)>
+<!ELEMENT trainer_email (#PCDATA)>
+]>
+<classes>
+    <!-- EXAMPLE FORMAT
+    <class>
+        <name>Cycling</name>
+		<date>2022-12-31</date>
+        <start_time>14:30:00</start_time>
+        <finish_time>15:30:00</finish_time>
+        <trainer_email>johnsmith@gmail.com</trainer_email>
+    </class>
+
+    -->
+	<class>
+		<name>Yoga</name>
+		<date>2022-12-31</date>
+		<start_time>07:00:00</start_time>
+		<finish_time>08:00:00</finish_time>
+        <trainer_email>johnsmith@gmail.com</trainer_email>
+	</class>
+	<class>
+		<name>Pilates</name>
+		<date>2022-12-31</date>
+		<start_time>09:00:00</start_time>
+		<finish_time>10:00:00</finish_time>
+        <trainer_email>johnsmith@gmail.com</trainer_email>
+	</class>
+	<class>
+		<name>Abs</name>
+		<date>2022-12-31</date>
+		<start_time>11:00:00</start_time>
+		<finish_time>12:00:00</finish_time>
+        <trainer_email>support@gregdoucette.com</trainer_email>
+	</class>
+	<class>
+		<name>High Intensity Interval Training</name>
+		<date>2022-12-31</date>
+		<start_time>15:00:00</start_time>
+		<finish_time>16:30:00</finish_time>
+        <trainer_email>info@athleanx.com</trainer_email>
+	</class>
+	<class>
+		<name>Boxing</name>
+		<date>2022-12-31</date>
+		<start_time>09:00:00</start_time>
+		<finish_time>10:00:00</finish_time>
+        <trainer_email>johnsmith@gmail.com</trainer_email>
+	</class>
+	<class>
+		<name>Indoor Cycling</name>
+		<date>2022-01-01</date>
+		<start_time>10:00:00</start_time>
+		<finish_time>11:30:00</finish_time>
+        <trainer_email>support@gregdoucette.com</trainer_email>
+	</class>
+	<class>
+		<name>Face Pulls</name>
+		<date>2023-01-01</date>
+		<start_time>11:00:00</start_time>
+		<finish_time>12:00:00</finish_time>
+        <trainer_email>info@athleanx.com</trainer_email>
+	</class>
+	<class>
+		<name>Zumba</name>
+		<date>2022-01-01</date>
+		<start_time>13:00:00</start_time>
+		<finish_time>15:00:00</finish_time>
+        <trainer_email>info@athleanx.com</trainer_email>
+	</class>
+</classes>

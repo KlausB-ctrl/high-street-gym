@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE trainers
+[
+<!ELEMENT trainers (trainer+)>
+<!ELEMENT trainer (first_name, last_name, email_address, phone_number)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT email_address (#PCDATA)>
+<!ELEMENT phone_number (#PCDATA)>
+]>
+<trainers>
+	<trainer>
+		<first_name>John</first_name>
+		<last_name>Smith</last_name>
+		<email_address>johnsmith@gmail.com</email_address>
+		<phone_number>0412345678</phone_number>
+	</trainer>
+	<trainer>
+		<first_name>Greg</first_name>
+		<last_name>Doucette</last_name>
+		<email_address>support@gregdoucette.com</email_address>
+		<phone_number>0714881488</phone_number>
+	</trainer>
+	<trainer>
+		<first_name>Jeff</first_name>
+		<last_name>Cavaliere</last_name>
+		<email_address>info@athleanx.com</email_address>
+		<phone_number>07482637452</phone_number>
+	</trainer>
+</trainers>
